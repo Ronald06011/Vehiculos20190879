@@ -1,13 +1,8 @@
 @page "/vehiculo"
 <PageTitle>Vehiculos</PageTitle>
-<h1>Listados de Vehiculos</h1>
-<style>
-label{
-    border-radius: 3px red solid;
-}
-</style>
+<h1>Resgitro de Vehiculos</h1>
+
 <br>
-<div id= "Comp">
 <label for="txtMarca" >Marca</label>
 <input type="text" name="txtMarca" id="txtMarca">
 <label for="txtModelo">Modelo</label>
@@ -16,12 +11,11 @@ label{
 <input  type="text" name="txtColor" id="txtColor">
 <label for="txtColor">Año</label>
 <input  type="text" name="txtAno" id="txtAno">
-</div>
+<button type="button">Guardar</button>
 <br>
 <br>
 <br>
 <hr>
-
 <table class="table">
     <thead>
         <tr>
@@ -33,3 +27,7 @@ label{
         </tr>
     </thead>
 </table>
+
+@code{
+    
+}
