@@ -3,6 +3,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    color: aliceblue;
+    background: linear-gradient(180deg, rgb(5, 103, 65) 0%, #3a0647 70%);
 }
 
 main[b-avgbovyn0e] {
@@ -10,11 +12,11 @@ main[b-avgbovyn0e] {
 }
 
 .sidebar[b-avgbovyn0e] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-image: linear-gradient(180deg, rgb(5, 103, 65) 0%, #3a0647 70%);
 }
 
 .top-row[b-avgbovyn0e] {
-    background-color: #f7f7f7;
+    background-color: rgba(0, 0, 0, 0.342);
     border-bottom: 1px solid #d6d5d5;
     justify-content: flex-end;
     height: 3.5rem;
@@ -76,7 +78,7 @@ main[b-avgbovyn0e] {
 
 .top-row[b-xa5bby0qvw] {
     height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.342);
 }
 
 .navbar-brand[b-xa5bby0qvw] {
@@ -104,7 +106,7 @@ main[b-avgbovyn0e] {
     }
 
     .nav-item[b-xa5bby0qvw]  a {
-        color: #d7d7d7;
+        color: #64a5b1;
         border-radius: 4px;
         height: 3rem;
         display: flex;
@@ -114,7 +116,7 @@ main[b-avgbovyn0e] {
 
 .nav-item[b-xa5bby0qvw]  a.active {
     background-color: rgba(255,255,255,0.25);
-    color: white;
+    color: rgb(17, 150, 190);
 }
 
 .nav-item[b-xa5bby0qvw]  a:hover {

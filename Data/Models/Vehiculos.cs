@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Vehiculos20190879.Data.Models;
 
 public class Vehiculos
